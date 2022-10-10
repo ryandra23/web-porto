@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solstice Studio</title>
+    <link rel="icon" href="assets/logo3.png">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="cursor"></div>
+    <header class="header">
+        <div class="header-row">
+            <div class="logo cursor-scale small" >
+                <a href="#"><img src="assets/logo2.png" alt="brand"></a>
+        </div>
+        <nav class="nav">
+            <ul class="cursor-scale small">
+                <li><a><span>Menu</span></a></li>
+                <button class="menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+                    <svg width="100" height="27" viewBox="0 0 10 100">
+                      <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                      <path class="line line2" d="M 20,50 H 80" />
+                      <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                    </svg>
+                  </button>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <section class="hero-text">
+        <div class="hero-text-content hidden">
+            <h1 class="cursor-scale">Once Driven</h1>
+            <h2 class="cursor-scale small">Forever Simplicity</h2>
+        </div>
+    </section>
+
+    <section class="desc">
+        <div class="desc-text hidden">
+            <h1 class="cursor-scale small">SOLSTICE Is a design agency that strives to create the look</h1>
+            <h1 class="cursor-scale small">of brands, products and services. We make client offerings </h1>
+            <h1 class="cursor-scale small">more enticing and attractive than their competitors. </h1>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-wrapper hidden">
+            <ul class="footer-nav cursor-scale small">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#"></a></li>
+            </ul>
+            <p class="cursor-scale small">All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/CSSRulePlugin.min.js" integrity="sha512-2+BGFUqT8mzxE2ifxQK7kcEhOeHaO5EOrUgRIUJ9+HoIw8zQHI+HvnVrgGjwW0qL5dpGv8ao2oZlBS7IvvCuhA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/main.js"></script>
+    <script>
+        function myFunction(x) {
+        x.classList.toggle("change");
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="js/magnetic.js"></script>
+
+</body>
+</html>
