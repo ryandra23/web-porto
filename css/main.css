@@ -58,19 +58,19 @@ span{
     text-transform: uppercase;
     transition: transform 0.1s linear;
     pointer-event: none;
+    color: white;
 }
 .nav ul{
     display: flex;
     align-items: center;
 }
-.nav li+li{
-    margin-left: 18px;
-    
-}
 .nav li a{
     font-weight: 400;
     font-size: 16px;
     color: white;
+}
+.solo{
+    margin-left: 800px;
 }
 .hero-text{
     height: 100vh;
